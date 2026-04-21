@@ -7,6 +7,17 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
+st.title("Crop Yield Prediction 🌾")
+
+try:
+    df = pd.read_csv("CROP_YEILD.csv")  # check spelling
+    st.success("CSV Loaded Successfully")
+    st.dataframe(df.head())
+
+except Exception as e:
+    st.error(f"Error: {e}")
+
+
 st.write("App is running 🚀")
 
 ROOT_DIR = Path(__file__).resolve().parent
