@@ -1,0 +1,727 @@
+{
+  "freshness": {
+    "data_mtime": 1776743101.6236835,
+    "service_mtime": 1776743101.7115605
+  },
+  "metrics": {
+    "mae": 0.179050558002755,
+    "mse": 0.11827586041632711,
+    "rmse": 0.34391257670566094,
+    "r2": 0.9693419098534283,
+    "train_r2": 0.9860360154829771,
+    "test_r2": 0.9693419098534283,
+    "overfit_gap": 0.016694105629548872,
+    "rows_raw": 5096,
+    "rows_processed": 4849
+  },
+  "model_comparison": {
+    "Baseline": {
+      "MAE": 0.19114682729011565,
+      "RMSE": 0.3694587503653414,
+      "R2": 0.9646181208541534
+    },
+    "Final Model": {
+      "MAE": 0.179050558002755,
+      "RMSE": 0.34391257670566094,
+      "R2": 0.9693419098534283
+    }
+  },
+  "feature_ranges": {
+    "fertilizer": {
+      "min": 49.0,
+      "max": 81.0,
+      "default": 64.98,
+      "step": 1.0
+    },
+    "temp": {
+      "min": 11.0,
+      "max": 41.0,
+      "default": 36.96,
+      "step": 1.0
+    },
+    "n": {
+      "min": 58.0,
+      "max": 81.0,
+      "default": 69.79,
+      "step": 1.0
+    },
+    "p": {
+      "min": 17.0,
+      "max": 26.0,
+      "default": 20.85,
+      "step": 1.0
+    },
+    "k": {
+      "min": 14.0,
+      "max": 23.0,
+      "default": 18.05,
+      "step": 1.0
+    },
+    "crop_season": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "step": 1.0
+    },
+    "rainfall": {
+      "min": 100.0,
+      "max": 299.0,
+      "default": 202.0,
+      "step": 1.0
+    },
+    "humidity": {
+      "min": 40.0,
+      "max": 89.0,
+      "default": 64.0,
+      "step": 1.0
+    },
+    "crop_name": {
+      "min": 0.0,
+      "max": 3.0,
+      "default": 2.0,
+      "step": 1.0
+    }
+  },
+  "sample_predictions": [
+    {
+      "Actual Yield": 7.494,
+      "Predicted Yield": 8.11513396575706
+    },
+    {
+      "Actual Yield": 5.395912862914964,
+      "Predicted Yield": 5.525505560567835
+    },
+    {
+      "Actual Yield": 7.005676686596265,
+      "Predicted Yield": 7.246470046502613
+    },
+    {
+      "Actual Yield": 10.086,
+      "Predicted Yield": 9.962789479153066
+    },
+    {
+      "Actual Yield": 7.0174703419361455,
+      "Predicted Yield": 7.00959927625224
+    },
+    {
+      "Actual Yield": 5.613097417429573,
+      "Predicted Yield": 5.543285683713394
+    },
+    {
+      "Actual Yield": 6.497941864366266,
+      "Predicted Yield": 6.483480490238757
+    },
+    {
+      "Actual Yield": 10.786,
+      "Predicted Yield": 10.90966073368623
+    },
+    {
+      "Actual Yield": 9.00471512198541,
+      "Predicted Yield": 9.010655968896316
+    },
+    {
+      "Actual Yield": 8.026,
+      "Predicted Yield": 7.970314286367253
+    },
+    {
+      "Actual Yield": 7.663798239273968,
+      "Predicted Yield": 7.49527461236828
+    },
+    {
+      "Actual Yield": 10.512,
+      "Predicted Yield": 10.458579250523504
+    },
+    {
+      "Actual Yield": 7.52859676264268,
+      "Predicted Yield": 7.507548240601784
+    },
+    {
+      "Actual Yield": 10.116173796437044,
+      "Predicted Yield": 10.254751883535844
+    },
+    {
+      "Actual Yield": 10.143,
+      "Predicted Yield": 9.933100705839959
+    },
+    {
+      "Actual Yield": 8.011,
+      "Predicted Yield": 7.965310823221079
+    },
+    {
+      "Actual Yield": 10.86458394277381,
+      "Predicted Yield": 10.577792698214857
+    },
+    {
+      "Actual Yield": 8.510860564960808,
+      "Predicted Yield": 8.468776106425207
+    },
+    {
+      "Actual Yield": 12.05494016110288,
+      "Predicted Yield": 12.015952440559088
+    },
+    {
+      "Actual Yield": 11.017970594198337,
+      "Predicted Yield": 10.977095679154889
+    },
+    {
+      "Actual Yield": 5.427893512039223,
+      "Predicted Yield": 5.656810370418669
+    },
+    {
+      "Actual Yield": 11.800579750265817,
+      "Predicted Yield": 11.982147686977509
+    },
+    {
+      "Actual Yield": 10.966171511956846,
+      "Predicted Yield": 10.845349213288454
+    },
+    {
+      "Actual Yield": 7.0297105753670905,
+      "Predicted Yield": 7.021837384122111
+    },
+    {
+      "Actual Yield": 11.092,
+      "Predicted Yield": 10.249853116031108
+    },
+    {
+      "Actual Yield": 5.385,
+      "Predicted Yield": 5.711969364338602
+    },
+    {
+      "Actual Yield": 6.801607245267248,
+      "Predicted Yield": 7.025959618003595
+    },
+    {
+      "Actual Yield": 9.496,
+      "Predicted Yield": 9.447655301950295
+    },
+    {
+      "Actual Yield": 7.921641167636451,
+      "Predicted Yield": 7.535042271128359
+    },
+    {
+      "Actual Yield": 6.483503298189973,
+      "Predicted Yield": 6.554074323309679
+    },
+    {
+      "Actual Yield": 8.1015703717014,
+      "Predicted Yield": 7.973013181960863
+    },
+    {
+      "Actual Yield": 7.511,
+      "Predicted Yield": 7.827190771269947
+    },
+    {
+      "Actual Yield": 5.46,
+      "Predicted Yield": 5.599725151997822
+    },
+    {
+      "Actual Yield": 6.008909582953909,
+      "Predicted Yield": 6.035610538707349
+    },
+    {
+      "Actual Yield": 7.973122002391883,
+      "Predicted Yield": 7.976221857021112
+    },
+    {
+      "Actual Yield": 8.022,
+      "Predicted Yield": 7.501495826527251
+    },
+    {
+      "Actual Yield": 6.382,
+      "Predicted Yield": 6.50816593862146
+    },
+    {
+      "Actual Yield": 10.531479480339778,
+      "Predicted Yield": 10.493509642770084
+    },
+    {
+      "Actual Yield": 8.975,
+      "Predicted Yield": 8.976686890042389
+    },
+    {
+      "Actual Yield": 8.467,
+      "Predicted Yield": 8.468367363382617
+    },
+    {
+      "Actual Yield": 10.446443323561706,
+      "Predicted Yield": 10.413985108069971
+    },
+    {
+      "Actual Yield": 7.263371205332674,
+      "Predicted Yield": 7.464304166082167
+    },
+    {
+      "Actual Yield": 6.237,
+      "Predicted Yield": 5.89751899071879
+    },
+    {
+      "Actual Yield": 7.538,
+      "Predicted Yield": 7.497185592362648
+    },
+    {
+      "Actual Yield": 10.224569452550512,
+      "Predicted Yield": 10.49819201492124
+    },
+    {
+      "Actual Yield": 12.039752454206992,
+      "Predicted Yield": 11.885667634868224
+    },
+    {
+      "Actual Yield": 7.101,
+      "Predicted Yield": 7.82884564998885
+    },
+    {
+      "Actual Yield": 6.868273055455411,
+      "Predicted Yield": 6.999569257883762
+    },
+    {
+      "Actual Yield": 5.889,
+      "Predicted Yield": 5.577777204737551
+    },
+    {
+      "Actual Yield": 8.978,
+      "Predicted Yield": 9.018292249335639
+    },
+    {
+      "Actual Yield": 8.645,
+      "Predicted Yield": 8.510512733244404
+    },
+    {
+      "Actual Yield": 10.597680161600396,
+      "Predicted Yield": 10.480213573875728
+    },
+    {
+      "Actual Yield": 8.414,
+      "Predicted Yield": 8.726936013689045
+    },
+    {
+      "Actual Yield": 5.348808310624951,
+      "Predicted Yield": 5.574099631300891
+    },
+    {
+      "Actual Yield": 5.948,
+      "Predicted Yield": 5.731299175349394
+    },
+    {
+      "Actual Yield": 7.076,
+      "Predicted Yield": 7.194294647371725
+    },
+    {
+      "Actual Yield": 6.045,
+      "Predicted Yield": 6.06191590268482
+    },
+    {
+      "Actual Yield": 9.533718265806543,
+      "Predicted Yield": 9.514644206200648
+    },
+    {
+      "Actual Yield": 8.403,
+      "Predicted Yield": 7.863944031352088
+    },
+    {
+      "Actual Yield": 8.061,
+      "Predicted Yield": 7.889327649369444
+    },
+    {
+      "Actual Yield": 5.455961371128694,
+      "Predicted Yield": 5.687824308443523
+    },
+    {
+      "Actual Yield": 10.111,
+      "Predicted Yield": 8.442816940013214
+    },
+    {
+      "Actual Yield": 8.997,
+      "Predicted Yield": 8.1996706792285
+    },
+    {
+      "Actual Yield": 9.885598150987374,
+      "Predicted Yield": 9.989416879991659
+    },
+    {
+      "Actual Yield": 6.494547332813871,
+      "Predicted Yield": 6.509517509651042
+    },
+    {
+      "Actual Yield": 11.904746761396186,
+      "Predicted Yield": 11.971670275636125
+    },
+    {
+      "Actual Yield": 8.105232916045974,
+      "Predicted Yield": 8.003901790804095
+    },
+    {
+      "Actual Yield": 10.949,
+      "Predicted Yield": 11.034395999508696
+    },
+    {
+      "Actual Yield": 6.767421824740114,
+      "Predicted Yield": 7.124945153586587
+    },
+    {
+      "Actual Yield": 10.630300659236369,
+      "Predicted Yield": 10.488839879789449
+    },
+    {
+      "Actual Yield": 9.071,
+      "Predicted Yield": 8.981348912395562
+    },
+    {
+      "Actual Yield": 10.0,
+      "Predicted Yield": 9.969531766414331
+    },
+    {
+      "Actual Yield": 11.914163901670891,
+      "Predicted Yield": 11.715512725470719
+    },
+    {
+      "Actual Yield": 8.482,
+      "Predicted Yield": 7.145164762607898
+    },
+    {
+      "Actual Yield": 10.449,
+      "Predicted Yield": 10.37902847865959
+    },
+    {
+      "Actual Yield": 11.022550558119407,
+      "Predicted Yield": 11.02437063871573
+    },
+    {
+      "Actual Yield": 7.425981446606762,
+      "Predicted Yield": 7.504525002148526
+    },
+    {
+      "Actual Yield": 5.64,
+      "Predicted Yield": 6.170434791817157
+    },
+    {
+      "Actual Yield": 9.423699715853314,
+      "Predicted Yield": 9.516075760132846
+    },
+    {
+      "Actual Yield": 7.939,
+      "Predicted Yield": 7.945081698154799
+    },
+    {
+      "Actual Yield": 11.16280694036551,
+      "Predicted Yield": 11.00843807443982
+    },
+    {
+      "Actual Yield": 6.0,
+      "Predicted Yield": 6.018618899733167
+    },
+    {
+      "Actual Yield": 5.894228421042956,
+      "Predicted Yield": 5.998606550312903
+    },
+    {
+      "Actual Yield": 9.087,
+      "Predicted Yield": 9.066635756968887
+    },
+    {
+      "Actual Yield": 11.118775327858256,
+      "Predicted Yield": 10.82436036942887
+    },
+    {
+      "Actual Yield": 9.06836616129494,
+      "Predicted Yield": 9.02509828278545
+    },
+    {
+      "Actual Yield": 9.573,
+      "Predicted Yield": 10.00691280967756
+    },
+    {
+      "Actual Yield": 6.386422145633431,
+      "Predicted Yield": 6.470049162528063
+    },
+    {
+      "Actual Yield": 9.469455093567522,
+      "Predicted Yield": 9.773023945034852
+    },
+    {
+      "Actual Yield": 9.953,
+      "Predicted Yield": 9.957575005768518
+    },
+    {
+      "Actual Yield": 6.485448538989515,
+      "Predicted Yield": 6.5086354892591185
+    },
+    {
+      "Actual Yield": 10.802397329859954,
+      "Predicted Yield": 10.944774770760208
+    },
+    {
+      "Actual Yield": 7.03188637497853,
+      "Predicted Yield": 7.115337977955053
+    },
+    {
+      "Actual Yield": 7.454,
+      "Predicted Yield": 7.453423560152895
+    },
+    {
+      "Actual Yield": 8.13180576457674,
+      "Predicted Yield": 7.996061040020332
+    },
+    {
+      "Actual Yield": 7.631,
+      "Predicted Yield": 7.5543541081847625
+    },
+    {
+      "Actual Yield": 9.053,
+      "Predicted Yield": 9.226709399016057
+    },
+    {
+      "Actual Yield": 7.309,
+      "Predicted Yield": 7.506940525311944
+    },
+    {
+      "Actual Yield": 6.680969962515944,
+      "Predicted Yield": 6.593038087905174
+    },
+    {
+      "Actual Yield": 12.106527393072906,
+      "Predicted Yield": 12.039220927067905
+    },
+    {
+      "Actual Yield": 8.620938890546261,
+      "Predicted Yield": 8.499977464333387
+    },
+    {
+      "Actual Yield": 6.604756005298084,
+      "Predicted Yield": 6.500857558085308
+    },
+    {
+      "Actual Yield": 11.93587420682858,
+      "Predicted Yield": 11.7755837409253
+    },
+    {
+      "Actual Yield": 10.52272526647664,
+      "Predicted Yield": 10.288172622608837
+    },
+    {
+      "Actual Yield": 10.923470829659394,
+      "Predicted Yield": 11.023205028636852
+    },
+    {
+      "Actual Yield": 9.828,
+      "Predicted Yield": 9.97284609979884
+    },
+    {
+      "Actual Yield": 8.242,
+      "Predicted Yield": 8.070206856053879
+    },
+    {
+      "Actual Yield": 7.598262093190474,
+      "Predicted Yield": 7.501701461977481
+    },
+    {
+      "Actual Yield": 7.116614598330576,
+      "Predicted Yield": 7.021483928025093
+    },
+    {
+      "Actual Yield": 7.893,
+      "Predicted Yield": 7.979597583367247
+    },
+    {
+      "Actual Yield": 9.441677507981282,
+      "Predicted Yield": 9.502957166881515
+    },
+    {
+      "Actual Yield": 9.937056786580596,
+      "Predicted Yield": 10.206192402877374
+    },
+    {
+      "Actual Yield": 5.486,
+      "Predicted Yield": 5.517925073870446
+    },
+    {
+      "Actual Yield": 7.401432758462592,
+      "Predicted Yield": 7.488559705244588
+    },
+    {
+      "Actual Yield": 10.442511295535692,
+      "Predicted Yield": 10.49576346414679
+    },
+    {
+      "Actual Yield": 6.51,
+      "Predicted Yield": 6.517679261587065
+    },
+    {
+      "Actual Yield": 6.08,
+      "Predicted Yield": 5.8865201455294
+    },
+    {
+      "Actual Yield": 5.4358827200093,
+      "Predicted Yield": 5.624953258530282
+    },
+    {
+      "Actual Yield": 7.375,
+      "Predicted Yield": 7.492250185112598
+    },
+    {
+      "Actual Yield": 10.912914263668265,
+      "Predicted Yield": 10.985212486618341
+    },
+    {
+      "Actual Yield": 8.54459617956236,
+      "Predicted Yield": 8.465023721941659
+    },
+    {
+      "Actual Yield": 10.005,
+      "Predicted Yield": 9.9800146985621
+    },
+    {
+      "Actual Yield": 5.370840261984331,
+      "Predicted Yield": 5.572564115960967
+    },
+    {
+      "Actual Yield": 6.5,
+      "Predicted Yield": 6.519311296450134
+    },
+    {
+      "Actual Yield": 7.45046966899017,
+      "Predicted Yield": 7.4761198017126205
+    },
+    {
+      "Actual Yield": 7.853917212547583,
+      "Predicted Yield": 7.9612213829308685
+    },
+    {
+      "Actual Yield": 5.434082193057753,
+      "Predicted Yield": 5.582874459921232
+    },
+    {
+      "Actual Yield": 7.510108402626803,
+      "Predicted Yield": 7.467613734662886
+    },
+    {
+      "Actual Yield": 11.8559021664178,
+      "Predicted Yield": 11.995505881764513
+    },
+    {
+      "Actual Yield": 9.016527101027902,
+      "Predicted Yield": 8.978444655833062
+    },
+    {
+      "Actual Yield": 7.944727732108658,
+      "Predicted Yield": 7.964911303226442
+    },
+    {
+      "Actual Yield": 9.510873654105618,
+      "Predicted Yield": 9.521309713331604
+    },
+    {
+      "Actual Yield": 11.987911215795265,
+      "Predicted Yield": 11.809648718079135
+    },
+    {
+      "Actual Yield": 10.495293327154467,
+      "Predicted Yield": 10.493509642770084
+    },
+    {
+      "Actual Yield": 6.575,
+      "Predicted Yield": 6.441551988892607
+    },
+    {
+      "Actual Yield": 5.692,
+      "Predicted Yield": 7.2012872181576455
+    },
+    {
+      "Actual Yield": 9.009323973870668,
+      "Predicted Yield": 8.783076860043163
+    },
+    {
+      "Actual Yield": 10.876469700631269,
+      "Predicted Yield": 10.9827632252962
+    },
+    {
+      "Actual Yield": 9.439,
+      "Predicted Yield": 9.5815663655573
+    },
+    {
+      "Actual Yield": 8.387,
+      "Predicted Yield": 8.511655507835709
+    },
+    {
+      "Actual Yield": 5.848624075859757,
+      "Predicted Yield": 6.0316364143255345
+    },
+    {
+      "Actual Yield": 9.071,
+      "Predicted Yield": 8.953191889005128
+    },
+    {
+      "Actual Yield": 7.471813871957594,
+      "Predicted Yield": 7.503473303855112
+    },
+    {
+      "Actual Yield": 5.3111789154278295,
+      "Predicted Yield": 5.633590977428396
+    },
+    {
+      "Actual Yield": 8.95130655442608,
+      "Predicted Yield": 9.007019977160187
+    },
+    {
+      "Actual Yield": 5.577,
+      "Predicted Yield": 5.613387227867337
+    },
+    {
+      "Actual Yield": 7.556240246719591,
+      "Predicted Yield": 7.490608288926199
+    },
+    {
+      "Actual Yield": 5.88,
+      "Predicted Yield": 5.729525026247015
+    },
+    {
+      "Actual Yield": 9.454966668003616,
+      "Predicted Yield": 9.503155166203898
+    },
+    {
+      "Actual Yield": 12.157,
+      "Predicted Yield": 11.972870742751802
+    },
+    {
+      "Actual Yield": 6.089,
+      "Predicted Yield": 6.207628499864357
+    },
+    {
+      "Actual Yield": 7.437545276439677,
+      "Predicted Yield": 7.474435045122798
+    },
+    {
+      "Actual Yield": 11.212777796208073,
+      "Predicted Yield": 11.001123718260747
+    },
+    {
+      "Actual Yield": 7.05,
+      "Predicted Yield": 7.099481349641292
+    },
+    {
+      "Actual Yield": 6.25555445474552,
+      "Predicted Yield": 6.488223919176157
+    },
+    {
+      "Actual Yield": 6.043,
+      "Predicted Yield": 6.03754590049848
+    },
+    {
+      "Actual Yield": 6.503,
+      "Predicted Yield": 6.507180435289435
+    },
+    {
+      "Actual Yield": 10.383,
+      "Predicted Yield": 10.497737413365456
+    },
+    {
+      "Actual Yield": 7.047731589301574,
+      "Predicted Yield": 7.348960264847543
+    },
+    {
+      "Actual Yield": 6.884292338534008,
+      "Predicted Yield": 6.986675355609556
+    }
+  ]
+}
